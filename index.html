@@ -42,7 +42,8 @@
         <a href="#features">Features</a>
         <a href="#screens">Screens</a>
         <a href="#philosophy">Philosophy</a>
-        <a class="nav__cta" href="#download">Get the app</a>
+        <a href="#roadmap">Roadmap</a>
+        <a class="nav__cta" href="#beta">Beta test</a>
       </nav>
     </div>
   </header>
@@ -58,17 +59,17 @@
             recovery you can see, and math handled so you can focus on the lift.
           </p>
           <div class="btn-row" id="download">
-            <button type="button" class="btn btn--primary btn--disabled" disabled title="Store link goes live with App Store release">App Store</button>
-            <button type="button" class="btn btn--ghost btn--disabled" disabled title="Store link goes live with Google Play release">Google Play</button>
+            <a class="btn btn--primary" href="#beta">Join the Android beta</a>
+            <button type="button" class="btn btn--ghost btn--disabled" disabled title="Store link goes live with App Store release">App Store (soon)</button>
           </div>
-          <p class="store-note">Store listings are in progress — this page is the public home for the product.</p>
+          <p class="store-note">Google Play closed testing is open. App Store coming later.</p>
         </div>
         <div class="hero__phones" aria-hidden="true">
           <div class="phone-frame phone-frame--tilt phone-frame--back">
             <img src="screenshots/1%20exercise_set.png" alt="" width="390" height="844" loading="eager">
           </div>
           <div class="phone-frame phone-frame--front">
-            <img src="screenshots/2%20exercise_grid.png" alt="" width="390" height="844" loading="eager">
+            <img src="screenshots/body-heatmap.png" alt="" width="390" height="844" loading="eager">
           </div>
         </div>
       </div>
@@ -258,13 +259,63 @@
       </div>
     </section>
 
+    <section class="section wrap" id="beta" aria-labelledby="beta-title">
+      <p class="section__label">Android beta</p>
+      <h2 class="section__title" id="beta-title">Help test One Set To Failure</h2>
+      <p class="section__lead">
+        Closed testing on Google Play runs through a private tester group.
+        Join with the same Google account you use on your Android device, then we can add you to the track.
+      </p>
+      <div class="philosophy__box beta-box">
+        <ol class="beta-steps">
+          <li>
+            Open the
+            <a href="https://groups.google.com/g/one-set-to-failure/about" rel="noopener noreferrer" target="_blank">One Set To Failure Google Play Testers</a>
+            group.
+          </li>
+          <li>
+            Click <strong>Ask to join the group</strong>.
+          </li>
+          <li>
+            In the reason for joining, tell us a bit about yourself.
+            If you have social media (Reddit, YouTube, Instagram, etc.), include those links.
+          </li>
+          <li>
+            Once approved, you will get access to the Play closed testing build.
+          </li>
+        </ol>
+        <div class="btn-row" style="margin-top:1.25rem">
+          <a class="btn btn--primary" href="https://groups.google.com/g/one-set-to-failure/about" rel="noopener noreferrer" target="_blank">Join the tester group</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="roadmap" aria-labelledby="roadmap-title">
+      <p class="section__label">Roadmap</p>
+      <h2 class="section__title" id="roadmap-title">See what is shipping next</h2>
+      <p class="section__lead">
+        The public feature tracker shows what is in progress, what is queued, and what has already shipped.
+        Comment on cards to vote, ask questions, or suggest ideas.
+      </p>
+      <div class="philosophy__box beta-box">
+        <p>
+          Follow the
+          <a href="https://trello.com/b/DgVk6K5N/one-set-to-failure" rel="noopener noreferrer" target="_blank">One Set To Failure Trello board</a>
+          to keep up with the backlog as the app moves through closed testing and toward store release.
+        </p>
+        <div class="btn-row" style="margin-top:1.25rem">
+          <a class="btn btn--primary" href="https://trello.com/b/DgVk6K5N/one-set-to-failure" rel="noopener noreferrer" target="_blank">Open the feature tracker</a>
+        </div>
+      </div>
+    </section>
+
     <section class="cta-band" aria-labelledby="cta-title">
       <div class="wrap">
         <h2 id="cta-title">Stop exercising. Start training.</h2>
         <p>One Set To Failure is the companion app for lifters who would rather do less volume with more intent.</p>
         <div class="btn-row" style="justify-content:center">
-          <button type="button" class="btn btn--primary btn--disabled" disabled>App Store (soon)</button>
-          <button type="button" class="btn btn--ghost btn--disabled" disabled>Google Play (soon)</button>
+          <a class="btn btn--primary" href="#beta">Join the Android beta</a>
+          <button type="button" class="btn btn--ghost btn--disabled" disabled>App Store (soon)</button>
         </div>
       </div>
     </section>
@@ -272,7 +323,9 @@
 
   <footer class="site-footer">
     <p><strong>One Set To Failure</strong> · High-intensity gym log</p>
-    <p style="margin-top:1rem">
+    <p class="site-footer__links">
+      <a href="https://trello.com/b/DgVk6K5N/one-set-to-failure" rel="noopener noreferrer" target="_blank">Feature tracker</a>
+      <a href="#beta">Android beta</a>
       <a href="#main">Back to top</a>
     </p>
   </footer>

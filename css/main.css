@@ -604,6 +604,24 @@ button.btn:disabled {
   margin-top: 1rem;
 }
 
+.beta-box {
+  max-width: 36rem;
+}
+
+.beta-steps {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--text-muted);
+}
+
+.beta-steps li + li {
+  margin-top: 0.75rem;
+}
+
+.beta-steps a {
+  font-weight: 600;
+}
+
 /* —— Site footer —— */
 .site-footer {
   padding: 2rem 1.5rem 2.5rem;
@@ -619,6 +637,14 @@ button.btn:disabled {
 
 .site-footer a:hover {
   color: var(--accent);
+}
+
+.site-footer__links {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.25rem;
 }
 
 /* —— Lightbox (simple) —— */

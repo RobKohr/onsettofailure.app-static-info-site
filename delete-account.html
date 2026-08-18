@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - One Set To Failure</title>
+    <style>
+        :root {
+            --bg-color: #0d0f12;
+            --card-bg: #161920;
+            --accent-color: #ff3e3e;
+            --text-primary: #f0f2f5;
+            --text-secondary: #9aa0a6;
+            --border-color: #2a2e39;
+            --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-family);
+            line-height: 1.6;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        .header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 28px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+        }
+
+        .header p {
+            color: var(--accent-color);
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: var(--text-primary);
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p, ul {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .contact-box {
+            background-color: #0f1116;
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--accent-color);
+            padding: 20px;
+            border-radius: 6px;
+            margin: 24px 0;
+        }
+
+        .email-link {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 13px;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+
+        .footer a {
+            color: var(--text-secondary);
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>One Set To Failure</h1>
+            <p>Account & Data Deletion Request</p>
+        </div>
+
+        <p>If you wish to terminate your account and permanently delete all associated fitness, health, and profile data from our servers, you may submit a request using the instructions below.</p>
+
+        <h2>How to Request Deletion</h2>
+        <p>To request permanent account deletion, send an email to our support contact from the email address registered with your <strong>One Set To Failure</strong> account.</p>
+
+        <div class="contact-box">
+            <p style="margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">Support Contact Email:</p>
+            <p id="email-container" style="margin-bottom: 0; font-size: 16px; font-weight: 600; color: var(--text-secondary);">
+                <em>Loading contact information...</em>
+            </p>
+        </div>
+
+        <h2>Requirements & Timeline</h2>
+        <ul>
+            <li><strong>Subject Line:</strong> Please use <code>Account Deletion Request</code> as your email subject line.</li>
+            <li><strong>Email Verification:</strong> The request must originate from the email address associated with your active account to verify account ownership.</li>
+            <li><strong>Processing Window:</strong> Account deletion requests are processed and completed within 30 days of receipt.</li>
+        </ul>
+
+        <h2>What Data is Deleted</h2>
+        <p>Upon receipt of your request, the following data is permanently purged from our servers:</p>
+        <ul>
+            <li>Your account credentials and email profile</li>
+            <li>All logged workout records, 1RM history, and set details</li>
+            <li>All tracked health and body composition data (weight, body fat %, calorie targets)</li>
+            <li>All customized exercise and recovery matrix settings</li>
+        </ul>
+
+        <div class="footer">
+            <p>Neverall Inc. &bull; <a href="/privacy.html">Privacy Policy</a></p>
+        </div>
+    </div>
+
+    <!-- Delayed JavaScript Email De-obfuscation -->
+    <script>
+        setTimeout(function() {
+            var user = [110,101,118,101,114,97,108,108,46,105,110,99];
+            var domain = [103,109,97,105,108,46,99,111,109];
+            
+            var userStr = user.map(function(c) { return String.fromCharCode(c); }).join('');
+            var domainStr = domain.map(function(c) { return String.fromCharCode(c); }).join('');
+            
+            var fullEmail = userStr + '@' + domainStr;
+            
+            var container = document.getElementById('email-container');
+            if (container) {
+                container.innerHTML = '';
+                var link = document.createElement('a');
+                link.href = 'mailto:' + fullEmail + '?subject=Account%20Deletion%20Request';
+                link.className = 'email-link';
+                link.textContent = fullEmail;
+                container.appendChild(link);
+            }
+        }, 2000); // 2000ms (2 second delay)
+    </script>
+</body>
+</html>
