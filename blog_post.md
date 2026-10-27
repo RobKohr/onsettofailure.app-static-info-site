@@ -12,31 +12,31 @@ Most gym apps want you in there forever. More sets, more taps, more dashboards. 
 
 Recovery is the whole game for this kind of training. The muscle heatmap shows every group color-coded so you know what's ready and what's still cooked:
 
-<img src="https://onesettofailure.app/screenshots/body-heatmap.png" alt="Muscle group readiness heatmap" height="500">
+<img src="https://onesettofailure.app/screenshots/2026-10-21/Muscle%20Readiness.png" alt="Muscle group readiness heatmap" height="500">
 
 Pick a location — garage, commercial gym, hotel — and you only see exercises that exist there:
 
-<img src="https://onesettofailure.app/screenshots/5%20locations.png" alt="Locations" height="500">
+<img src="https://onesettofailure.app/screenshots/2026-10-21/Home.png" alt="Locations" height="500">
 
 The exercise grid sorts by recovery. Tap what you're doing next:
 
-<img src="https://onesettofailure.app/screenshots/2%20exercise_grid.png" alt="Exercise grid" height="500">
+<img src="https://onesettofailure.app/screenshots/2026-10-21/Grid.png" alt="Exercise grid" height="500">
 
 Logging is built for shaky hands after a real set:
 
-<img src="https://onesettofailure.app/screenshots/1%20exercise_set.png" alt="Set logging" height="500">
+<img src="https://onesettofailure.app/screenshots/2026-10-21/Exercise%20Set%20Entry.png" alt="Set logging" height="500">
 
-Workouts are just ordered lists — no bloated program builder:
+Session history on a calendar — every training day, gains, and estimated 1RMs:
 
-<img src="https://onesettofailure.app/screenshots/3%20workout_exercise_list.png" alt="Workout list" height="500">
+<img src="https://onesettofailure.app/screenshots/2026-10-21/History.png" alt="Session history" height="500">
 
 Plate math on screen so you're not doing arithmetic between sets:
 
-<img src="https://onesettofailure.app/screenshots/6%20plate_calculator.png" alt="Plate calculator" height="500">
+<img src="https://onesettofailure.app/screenshots/2026-10-21/Plate%20Breakdown.png" alt="Plate calculator" height="500">
 
 Charts for strength and body comp — if the trend isn't moving, something's wrong:
 
-<img src="https://onesettofailure.app/screenshots/4%20measurement_charts.png" alt="Measurement charts" height="500">
+<img src="https://onesettofailure.app/screenshots/2026-10-21/Measurement%20Chart.png" alt="Measurement charts" height="500">
 
 ### Status
 

@@ -358,6 +358,26 @@ button.btn:disabled {
   position: relative;
 }
 
+/* Labeled marketing shots already include chrome + gradient */
+.shot {
+  margin: 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow:
+    0 24px 80px rgba(0, 0, 0, 0.55),
+    0 0 60px rgba(240, 160, 48, 0.08);
+  line-height: 0;
+}
+
+.shot img {
+  width: 100%;
+  height: auto;
+}
+
+.shot--tilt {
+  transform: rotate(-2deg);
+}
+
 .phone-frame {
   border-radius: 28px;
   overflow: hidden;
@@ -381,12 +401,14 @@ button.btn:disabled {
     align-items: end;
   }
 
+  .shot--back,
   .phone-frame--back {
     transform: translateY(2rem) scale(0.92);
-    opacity: 0.85;
+    opacity: 0.9;
     z-index: 0;
   }
 
+  .shot--front,
   .phone-frame--front {
     transform: translateX(-1.5rem) translateY(-0.5rem);
     z-index: 1;
@@ -518,6 +540,11 @@ button.btn:disabled {
 
 .showcase-row__visual .phone-frame {
   max-width: 280px;
+  width: 100%;
+}
+
+.showcase-row__visual .shot {
+  max-width: 320px;
   width: 100%;
 }
 
